@@ -1,0 +1,11 @@
+version: "3"
+services:
+  web:
+    build: .
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    environment:
+      - BERBIX_API_SECRET=${BERBIX_API_SECRET}
+      - BERBIX_WEBHOOK_SECRET=${BERBIX_WEBHOOK_SECRET}
