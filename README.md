@@ -2,22 +2,19 @@
 Dockerized FastAPI application to test Berbix webhooks
 
 ## Set Up
-[] Start by cloning this repo:
-```
-git clone git@github.com:sgsharma/fastapi-docker.git
-```
+- [ ] Start by cloning this repo: `git clone git@github.com:sgsharma/fastapi-docker.git`
 
-[] Login to the Berbix console: https://dashboard.berbix.com/login
+- [ ] Login to the Berbix console: https://dashboard.berbix.com/login
 
-[] Enable "Test" mode with the slider in the top right hand corner of the Berbix Dashboard.
+- [ ] Enable "Test" mode with the slider in the top right hand corner of the Berbix Dashboard.
 
-[] Generate API keys following these instructions: https://docs.berbix.com/docs/settings#section-api-keys
+- [ ] Generate API keys following these instructions: https://docs.berbix.com/docs/settings#section-api-keys
 
-[] Copy `.env.example` to `.env` and add your API secret to `BERBIX_API_SECRET`
+- [ ] Copy `.env.example` to `.env` and add your API secret to `BERBIX_API_SECRET`
 
-[] On the `Integrations` page in the Berbix console add a webhook and copy the hook secret to `BERBIX_WEBHOOK_SECRET`
+- [ ] On the `Integrations` page in the Berbix console add a webhook and copy the hook secret to `BERBIX_WEBHOOK_SECRET`
 
-[] Add your last name (as on your ID that you'll be testing with) to your list of Test IDs. Go to Settings —> Test IDs -> Add Test ID.
+- [ ] Add your last name (as on your ID that you'll be testing with) to your list of Test IDs. Go to Settings —> Test IDs -> Add Test ID.
 
 
 ## Docker Set Up
